@@ -1,0 +1,40 @@
+/** Selector global **/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#contenedor{
+    width: 900px;
+    height: 1200px;
+    background-color: #d49e23;
+}
+
+#cabecera{
+    height: 25%;
+    background-color: #d9bd1f;
+}
+
+#menu{
+    height: 5%;
+    background-color: #713505;
+}
+
+#seccion1{
+    height: 30%;
+    border: 2px;
+    background-color: #b01a1c;
+    border-color: #68531e;
+}
+
+#seccion2{
+    height: 30%;
+    border: 2px;
+    background-color: #dcc43c;
+    border-color: #68531e;
+}
+
+#pie{
+    height: 10%;
+    background-color: #744607;
+}
