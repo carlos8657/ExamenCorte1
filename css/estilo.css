@@ -13,6 +13,7 @@
 #cabecera{
     height: 25%;
     background-color: #d9bd1f;
+    text-align: center;
 }
 
 #menu{
@@ -25,6 +26,8 @@
     border: 2px;
     background-color: #b01a1c;
     border-color: #68531e;
+    padding-right: 100px;
+    margin-bottom: 20px;
 }
 
 #seccion2{
@@ -34,7 +37,89 @@
     border-color: #68531e;
 }
 
-#pie{
+#seccion1_section{
+    height: 30%;
+    float: left;
+}
+
+#seccion1_aside{
+    height: 30%;
+    float: right;
+}
+
+#seccion2_section{
+    height: 30%;
+    float: left;
+}
+
+#seccion2_aside{
+    height: 30%;
+    float: right;
+}
+
+#pie{   
     height: 10%;
     background-color: #744607;
+}
+
+
+/** Selector por etiqueta **/
+
+.encabezado{
+    color:white;
+    margin-left: 30px;
+}
+
+
+.barraNavegacion{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.texto{
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    float: left;
+    margin: 30px;
+    color: white;
+}
+
+
+.pieNavegacion{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+ul{
+    text-align: center;
+    padding-top: 15px;
+}
+
+li{
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+
+}
+
+img{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: unset;
 }
